@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #d7ccc8, #a1887f); /* Brown gradient background */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background: #5d4037; /* Dark brown header */
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.3rem;
+  color: #d7ccc8; /* Light brown text */
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #bcaaa4; /* Lighter brown on hover */
+}
+
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #5d4037; /* Dark brown heading */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 i {
+  margin-right: 10px;
+}
+
+.experience-item, .project-item, .education-item, .skills-item {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 20px; /* Reduced space between items */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(93, 64, 55, 0.1); /* Soft brown shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover, .project-item:hover, .education-item:hover, .skills-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(93, 64, 55, 0.2); /* Slightly stronger shadow on hover */
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #4e342e; /* Dark brown text */
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: #6d4c41; /* Brown text for list items */
+}
+
+a {
+  color: #5d4037; /* Dark brown link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8d6e63; /* Lighter brown on hover */
+  text-decoration: underline;
+}
+
+footer {
+  background: #3e2723; /* Dark chocolate footer */
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 60px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #d7ccc8; /* Light brown text */
+}
